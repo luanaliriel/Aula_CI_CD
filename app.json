@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "LUANA_CI_CD",
+    "slug": "luanacicd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.luanaliriel.cicd"
+    },
+    "android": {
+      "package": "com.luanaliriel.cicd",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ac0b8242-bb51-48f0-a1da-e733997339aa"
+      }
+    },
+    "owner": "luanaliriel"
+  }
+}
